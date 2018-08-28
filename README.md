@@ -28,7 +28,7 @@ A web app that lets users view and leave comments on the most recent Bank of Can
 
 #### The app requires node.JS, including npm dependencies:
 
-* node.js - https://nodejs.org/en/
+* [node.js](https://nodejs.org/en/)
 * handlebars - http://handlebarsjs.com/
 * mongoDB - https://www.mongodb.com/download-center#community
 * mongoose - http://mongoosejs.com/docs/
