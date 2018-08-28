@@ -1,11 +1,12 @@
-# mongoHeadlines
+# mongoHeadlines app
 A web app that lets users view and leave comments on the most recent Bank of Canada news. 
 
 # getting started
 [headlinesBankofCanada](https://headlinesbankofcanada.herokuapp.com/) 
 
 
-# highlights
+# app highlights
+
 
 ## Home Page 
 
@@ -13,7 +14,7 @@ A web app that lets users view and leave comments on the most recent Bank of Can
 
 ## Touch any home page button to begin 
 
-![pic2](public/assets/img/pic2.png)
+![buttons](public/assets/img/buttons.png)
 
 ## ... and scroll down to read new articles from Bank of Canada
 
