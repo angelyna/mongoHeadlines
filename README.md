@@ -12,7 +12,7 @@ A web app that lets users view and leave comments on the most recent Bank of Can
 
 ![pic1](public/assets/img/pic1.png)
 
-## Touch any home page button to begin 
+## touch any button to begin 
 
 ![buttons](public/assets/img/buttons.png)
 
@@ -20,7 +20,7 @@ A web app that lets users view and leave comments on the most recent Bank of Can
 
 ![pic3](public/assets/img/pic3.png)
 
-## Saved Articles Page
+## you can save any article you prefer and read it later in the Saved Articles Page
 
 ![pic4](public/assets/img/pic3.png)
 
