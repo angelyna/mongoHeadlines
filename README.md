@@ -1,7 +1,7 @@
 # mongoHeadlines app
 A web app that lets users view and leave comments on the most recent Bank of Canada news. 
 
-# getting started
+# getting started in Heroku
 [headlinesBankofCanada](https://headlinesbankofcanada.herokuapp.com/) 
 
 
@@ -46,7 +46,7 @@ A web app that lets users view and leave comments on the most recent Bank of Can
 * [request NPM Package](https://www.npmjs.com/package/request)
 
 
-Run `npm init`. When finished, install and save these npm packages. This shall return the PORT: 3000. Then, run the app in your local browser @ http://localhost:3000/ . Alternatively, access this app in HEROKU @ 
+Run `npm init`. When finished, install and save these npm packages. This shall return the PORT: 3000. Then, run the app in your local browser @ http://localhost:3000/ . Alternatively, access this app in Heroku @ 
 [headlinesBankofCanada](https://headlinesbankofcanada.herokuapp.com/) 
 
 
