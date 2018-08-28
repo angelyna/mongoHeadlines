@@ -5,25 +5,31 @@ A web app that lets users view and leave comments on the most recent Bank of Can
 [headlinesBankofCanada](https://headlinesbankofcanada.herokuapp.com/) 
 
 
-### highlights
+# highlights
 
-* Home Page - Touch any home page button to begin and scroll down to see more
+## Home Page 
 
 ![pic1](public/assets/img/pic1.png)
 
-* Scraped news articles from Bank of Canada
+## Touch any home page button to begin 
 
 ![pic2](public/assets/img/pic2.png)
 
-![pic3](public/assets/images/pic3.png)
+## ... and scroll down to read new articles from Bank of Canada
 
-* Saved Articles Page - Touch any home page button to begin and scroll down to see more
+![pic3](public/assets/img/pic3.png)
 
-![pic4](public/assets/img/pic4.png)
+## Saved Articles Page
 
-* Save your notes, and update your page of interest portfolio. 
+![pic4](public/assets/img/pic3.png)
 
-![pic5](public/assets/img/pic5.png)
+## Touch any home page button to begin and scroll down to see more
+
+![pic5](public/assets/images/pic5.png)
+
+## The app is fully responsive
+
+![pic1r](public/assets/img/pic1r.png) ![pic2r](public/assets/img/pic2r.png)
 
 
 #### The app requires node.JS, including npm dependencies:
