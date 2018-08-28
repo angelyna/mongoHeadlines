@@ -1,4 +1,4 @@
-# mongoHeadlines app
+# mongoHeadlines app - read and comment the Bank of Canada Newest News
 A web app that lets users view and leave comments on the most recent Bank of Canada news. 
 
 # getting started in Heroku
