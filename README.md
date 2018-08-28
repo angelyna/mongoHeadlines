@@ -20,12 +20,11 @@ A web app that lets users view and leave comments on the most recent Bank of Can
 
 ![pic3](public/assets/img/pic3.png)
 
-### you can save any article you prefer and read it later in the Saved Articles Page
+### You can save your preferred articles in the Saved Articles Page; and read them later; and delete them as you prefer.
 
 ![pic4](public/assets/img/pic4.png)
 
-## Touch any home page button to begin and scroll down to see more
-
+## ... and you can save your comments and notes, read them later and delete them.
 ![pic5](public/assets/img/pic5.png)
 
 ## The app is fully responsive
