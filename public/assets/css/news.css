@@ -1,0 +1,129 @@
+
+body {
+    background-color: #1e2f46;
+    /* background-image: url("/assets/img/bankOfCanada1.jpg"); */
+}
+
+.navbar {
+    background-color: #1e2f46;
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.btn-scraper {
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    padding: 10px;
+}
+
+.add-note-btn {
+    float: right;
+    margin-right: 8px;
+}
+
+.background-image {
+    height: 88vh;
+    width: 100%;
+    background-image: url("/assets/img/bankOfCanada1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-position-y: -200px; */
+}
+
+.article-container {
+    background-image: url("/assets/img/dust_scratches.png");
+}
+
+#article-title {
+    text-align: center;
+    color: white;
+}
+
+.article-category {
+    font-weight: bold;
+    color: black;
+}
+
+.article-summary {
+    /* font-weight: bold; */
+    color: white;
+}
+
+.article-date {
+    float: right;
+    color: black;
+}
+
+.article-save {
+    float: right;
+}
+
+.article-unsave {
+    float: right;
+}
+
+#note-form {
+    height: 80px;
+}
+
+.note-title {
+    float: left;
+}
+
+#note-titleinput {
+    float: left;
+}
+
+#note-bodyinput {
+    float: left;
+    height: 60px;
+    width: 300px;
+}
+
+#add-note {
+    float: right;
+}
+
+#delete-note {
+    float: right;
+}
+
+.panel-default .panel-heading {
+    background-color: #1e2f46;
+}
+
+.caption {
+    margin-top: 5%;
+    color: white;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+}
+
+.caption h1 {
+    font-size: 80px;
+    font-weight: 600;
+    text-shadow: -1px -1px 0 #1e2f46, 1px -1px 0 #1e2f46, -1px 1px 0 #1e2f46, 1px 1px 0 #1e2f46;
+}
+
+.caption p {
+    font-size: 30px;
+    text-shadow: -1px -1px 0 #1e2f46, 1px -1px 0 #1e2f46, -1px 1px 0 #1e2f46, 1px 1px 0 #1e2f46;
+}
+
+.btn-success {
+    background-color: white;
+    color: #1e2f46;
+}

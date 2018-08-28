@@ -1,0 +1,73 @@
+<div class="modal fade" tabindex="-1" role="dialog" id="notes-modal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" data-id="{{_id}}">Article Notes: {{{thisId}}}</h4>
+            </div>
+            <div class="modal-body">
+                <div class="panel panel-default">
+                    <div class="panel-body" id="notes">
+
+                    </div>
+                </div>
+                <hr>
+                <div class="panel panel-default" id="note-form">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<nav class="navbar">
+    <div class="container-fluid">
+        <ul class="nav navbar-nav">
+            <li class="active header-text">
+                <a href="/">Home</a>
+            </li>
+            <li class="active header-text">
+                <a href="/saved">Saved Articles</a>
+            </li>
+            <li>
+                <a class="btn btn-danger btn-scraper" href="/api/scrape">NEWEST ARTICLES!</a>
+            </li>
+            <li class="active header-text">
+                <a href="https://github.com/angelyna/">My Github Repo</a>
+            </li>
+            <li class="active header-text">
+                <a href="https://angelyna.github.io/angelina/">About Me</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="jumbrotron text-center">
+    <div class="overlay"></div>
+    <div class="background-image center-block"></div>
+    <div class="caption">
+        <h1>Saved Articles</h1>
+        <p>Bank of Canada | News Edition</p>
+    </div>
+</div>
+
+{{!-- Container for dynamically populating our articles --}}
+<div class="container-fluid article-container">
+    {{#each articles}}
+    <div class="panel panel-default">
+        <div class="panel-heading article-panel">
+            <h3>
+                <a class="article-link" href="{{link}}">{{title}}</a>
+                <a class="btn btn-danger save article-unsave" data-id="{{_id}}">Unsave Article</a>
+                <button class="btn btn-warning add-note-btn" data-id="{{_id}}">Add Note</button>
+            </h3>
+            <span class="article-summary">{{summary}}</span>
+        </div>
+        <div class="panel-body">
+            <span class="article-category">Content Type: {{category}}</span>
+            <span class="article-date">Published @ {{timeStamp}}</span>
+        </div>
+    </div>
+    {{/each}}
+</div>
