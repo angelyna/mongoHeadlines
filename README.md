@@ -46,7 +46,7 @@ A web app that lets users view and leave comments on the most recent Bank of Can
 * [request NPM Package](https://www.npmjs.com/package/request)
 
 
-Run `npm init`. When finished, install and save these npm packages. This shall return the PORT: 3000. Then, run the app in your local browser @ http://localhost:3000/ . Alternatively, access this app in Heroku @ 
+Run `npm init`. When finished, install and save the npm packages (refer to the npm packages listed above). This shall return the PORT: 3000. Then, run the app in your local browser @ http://localhost:3000/ . Alternatively, access this app in Heroku @ 
 [headlinesBankofCanada](https://headlinesbankofcanada.herokuapp.com/) 
 
 
